@@ -1,0 +1,11 @@
+1. Complex Example with "add" (once with member function and another with standalone) and "subtract" (bouns: frind function ) member function and function print.
+2. Note: the following points will cover in the lab (ask your lab assistant):
+	1. Moving from .C to .CPP compiler:
+	2. Flexible Deceleration of variables anywhere in the program.
+	3. Eliminating "void" keyword from brackets in function headers.
+	4. cin>> and cout<< streams.
+	5. Dynamic allocation with "new" and "delete" operators.
+3. Implement Swap function:
+	1. Once call by value.
+	2. Once call by Address
+	3. And call by Reference
