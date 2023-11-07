@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1697978222 source:e:\amazing programmer life\iti - hussein\03- c programming\labs\lab4\lab4-c-hussein\lab4-c-hussein-p2-menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<dos.h>
+	<dir.h>
+
+1698007687 source:e:\amazing programmer life\iti - hussein\03- c programming\labs\lab4\lab4-c-hussein\lab4-c-hussein-p2-menu-v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<dos.h>
+	<dir.h>
+	<conio.h>
+

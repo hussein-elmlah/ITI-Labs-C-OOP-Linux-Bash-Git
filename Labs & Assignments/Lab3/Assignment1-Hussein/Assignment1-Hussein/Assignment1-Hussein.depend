@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1697998998 source:e:\amazing programmer life\iti - hussein\03- c programming\labs\lab3\assignment1-hussein\assignment1-hussein\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

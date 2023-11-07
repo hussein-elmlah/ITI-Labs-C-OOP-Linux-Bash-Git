@@ -1,0 +1,13 @@
+Assigments
+=========== 
+Day1:
+==========
+1- install the C enviroment.
+2- write a C Program to test different format Specifiers with "Printf".
+3- write a C Program to print ASCII number of a given char.
+4- write a C Program to add two integers.
+5- write a C Program to print Hexa of a number.
+6- write a C Program to make simple calculations (add, sub, multiply, divid) on two integers
+7- write a C Program to compute Quotient and Remainder.
+8- write a C Program to Find the Largest Number Among Three Numbers.
+

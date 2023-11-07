@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1698019304 source:e:\amazing programmer life\iti - hussein\03- c programming\labs\lab4\lab4-c-hussein\lab4-c-hussein\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

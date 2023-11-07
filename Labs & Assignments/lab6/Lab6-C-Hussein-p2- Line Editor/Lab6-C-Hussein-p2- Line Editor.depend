@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698197733 source:e:\amazing programmer life\iti - hussein\03- c programming\labs\lab6\lab6-c-hussein-p2- line editor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<dos.h>
+	<dir.h>
+	<conio.h>
+

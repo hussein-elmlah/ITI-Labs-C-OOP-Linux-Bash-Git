@@ -1,0 +1,16 @@
+magic box 
+
+#include<windows.h>
+#include <time.h>
+
+void gotoxy(int x,int y)
+{
+    COORD coord= {0,0};
+    coord.X=x;
+    coord.Y=y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
+}
+
+C Program to take an array elements from user, then print them out "using 2 for loops". (Print Array)
+
+C Program to find the minimum & maximum value of array elements. (Min_Max Array)
