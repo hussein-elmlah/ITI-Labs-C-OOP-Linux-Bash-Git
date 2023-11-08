@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1699449247 source:e:\amazing programmer life\iti - hussein\06- c++ oop programming\labs\lab2\lab2-oop-bonus-menu\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<dos.h>
+	<dir.h>
+	<conio.h>
+
