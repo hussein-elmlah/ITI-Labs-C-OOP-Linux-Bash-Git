@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1700040665 source:f:\amazing programmer life\iti - hussein\06- c++ oop programming\labs\lab6\lab6-p1-hussein-v2\main.cpp
+	<iostream>
+	<graphics.h>
+	<cstdio>
+
