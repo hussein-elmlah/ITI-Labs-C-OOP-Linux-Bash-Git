@@ -58,6 +58,8 @@ head -4 /etc/passwd
 10-Display the last 7 lines of /etc/passwd
 tail -7 /etc/passwd
 
+![lab1 q8-q10](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/89a57a16-f7c0-4633-8e80-7e6ff8dace11)
+
 
 11-Display the man pages of passwd the command and the file sequentially in one command.
 man passwd file
@@ -67,4 +69,7 @@ man -s 5 passwd
 
 13-Display a list of all the commands that contain the keyword passwd in their man page.
 man -K passwd
+
+![lab1 q11-q13](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/39ae59b3-9f93-4a9e-8717-0db75d4f5afc)
+
 
