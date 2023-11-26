@@ -41,6 +41,9 @@ Try 'rm --help' for more information.
 displays 1 
 because ls with a file gives only the file path.
 
+![lab4 q1-q9](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/550fa0e8-c0f6-4ce7-980b-5b2c5e82ce7a)
+
+
 ### 10-Issue the command sleep 100.
 sleep 100
 
@@ -64,11 +67,20 @@ kill -SIGKILL %5
 ### 16-Display your processes only
 ps -u
 
+![lab4 q10-q16](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/1daee9a0-2dd5-436e-92ed-16019babcfad)
+
+
 ### 17-Display all processes except yours
 ps aux | grep -v $(whoami)
 
+![Lab4 q17](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/8a444772-fcd1-47dd-9d3a-3f8d4db7e80d)
+
+
 ### 18-Use the pgrep command to list your processes only
 pgrep -lu $(whoami)
+
+![Lab4 q18](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/17367920-27e2-43b6-b885-0987878e27c7)
+
 
 ### 19-Kill your processes only.
 pkill -u $(whoami)
