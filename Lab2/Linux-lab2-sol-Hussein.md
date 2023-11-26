@@ -48,6 +48,8 @@ sudo userdel -r baduser
 sudo groupdel badgroup
 
 
+
+
 ### 13-Create a folder called myteam in your home directory and change its permissions to
 read only for the owner.
 
@@ -55,6 +57,8 @@ mkdir myteam
 ls -ld myteam
 chmod u=r myteam
 ls -ld myteam
+
+
 
 ### 14-Log out and log in by another user
 
