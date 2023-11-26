@@ -45,6 +45,9 @@ cd ~
 cd /home/hussein
 cd ../../home/hussen
 
+![lab1 q1-q7](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/5ce50b3c-7d74-4fcb-86ac-a74f85e10c6b)
+
+
 8-List Linux commands in /usr/bin that start with letter w
 cd /usr/bin
 ls w*
@@ -55,6 +58,7 @@ head -4 /etc/passwd
 10-Display the last 7 lines of /etc/passwd
 tail -7 /etc/passwd
 
+
 11-Display the man pages of passwd the command and the file sequentially in one command.
 man passwd file
 
@@ -63,3 +67,4 @@ man -s 5 passwd
 
 13-Display a list of all the commands that contain the keyword passwd in their man page.
 man -K passwd
+
