@@ -67,7 +67,7 @@ man passwd file
 12-Display the man page of the passwd file.
 man -s 5 passwd
 
-13-Display a list of all the commands that contain the keyword passwd in their man page.
+###13-Display a list of all the commands that contain the keyword passwd in their man page.
 man -K passwd
 
 ![lab1 q11-q13](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/39ae59b3-9f93-4a9e-8717-0db75d4f5afc)
