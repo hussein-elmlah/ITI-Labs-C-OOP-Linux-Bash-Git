@@ -47,8 +47,7 @@ sudo userdel -r baduser
 
 sudo groupdel badgroup
 
-
-
+![lab2 q1-q12](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/22abd11f-3fea-4fd4-a27f-13b82893799e)
 
 ### 13-Create a folder called myteam in your home directory and change its permissions to
 read only for the owner.
@@ -58,6 +57,7 @@ ls -ld myteam
 chmod u=r myteam
 ls -ld myteam
 
+![lab2 q13-](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/2dea3b23-f51e-4a8c-b12d-a2bf5199da7b)
 
 
 ### 14-Log out and log in by another user
