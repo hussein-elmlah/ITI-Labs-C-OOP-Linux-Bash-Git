@@ -30,43 +30,37 @@ In Command mode using dd then :5 dd
 In Command mode using ‘A’
 
 ### 3. List the available shells in your system.
-
-Cat /etc/shells
-chsh -l
+<br> Cat /etc/shells
+<br> chsh -l
 
 ### 4. List the environment variables in your current shell.
-
-Printenv
-env
+<br> Printenv
+<br> env
 
 ### 5. List all of the environment variables for the bash shell.(?؟؟)
 
 set
 
 ### 6. What are the commands that list the value of a specific variable?
-
-printenv VARIABLE
-echo $VARIABLE
+<br> printenv VARIABLE
+<br> echo $VARIABLE
 
 ### 7. Display your current shell name.
-
-printenv SHELL
-echo $SHELL
+<br> printenv SHELL
+<br> echo $SHELL
 
 ### 8. State the initialization files of: sh, ksh, bash.
+<br> cat ~/.bash_profile
+<br> cat ~/.bashrc
 
-cat ~/.bash_profile
-cat ~/.bashrc
-
-cat /etc/bash_profile
-cat /etc/bashrc
+<br> cat /etc/bash_profile
+<br> cat /etc/bashrc
 
 
 ### 9. Edit in your profile to display date at login and change your prompt permanently.
-
-vi ~/.bashrc
-// add 
-PS1="\d"
+<br> vi ~/.bashrc
+<br> // add 
+<br> PS1="\d"
 
 ![lab3 q9 p1](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/5b7ac454-aac2-4281-b727-72b75c37a2e9)
 
@@ -76,13 +70,13 @@ PS1="\d"
 ### echo \ then press enter
 ### What is the purpose of \ ?
 
-escape character allowing special chars to be written
+<br> escape character allowing special chars to be written
 
-Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
+<br> Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
 
-vim ~/.bashrc
-// add 
-PS2=”:”
+<br> vim ~/.bashrc
+<br> // add 
+<br> PS2=”:”
 
 ### 11. Create a Bash shell alias named ls for the “ls –l” command
 
