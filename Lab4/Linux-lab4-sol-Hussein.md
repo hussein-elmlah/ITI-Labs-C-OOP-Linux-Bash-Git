@@ -19,8 +19,8 @@ cut /etc/passwd -f1,5 -d: | grep '^g' | sort -k 2 -t: -o users-g.list
 ### a-
 sudo find / -name .bash_profile &
 ### b-
-<br> ls -R / > ls-output.list 2> ls-error.list &
-<br> // need sorting.
+<br> ls -R / 2> ls-error.list | sort > ls-output.list  &
+<br> //note_that: ls -R / > ls-output.list 2> ls-error.list & -> is not correct // need sorting.
 
 ### 7-Display the number of users who is logged now to the system.
 who | wc -l
@@ -65,7 +65,7 @@ jobs
 kill -SIGKILL %5
 
 ### 16-Display your processes only
-ps -u
+ps -u $(whoami)
 
 ![lab4 q10-q16](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/1daee9a0-2dd5-436e-92ed-16019babcfad)
 
