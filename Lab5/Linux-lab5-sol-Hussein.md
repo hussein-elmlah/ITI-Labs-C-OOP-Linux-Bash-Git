@@ -17,6 +17,9 @@ zcat
 
 sudo tar -cvf etcBackup.tar /etc
 
+![lab5 q1-3](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/cc4f6261-5a88-4f3a-ae4a-7700abaef41d)
+
+
 ### 4- Starting from your home directory, find all files that were modified in the last two day.
 
 find ~ -type f -mtime -2
@@ -40,6 +43,9 @@ file /dev/pts/0    ->  Character special file
 file /etc    ->  directory
 file /dev/sda    ->  Block special file
 //or using  ls -l filePath
+
+![lab5 q8](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/e6286185-87d1-4d8b-847a-ae63557a8a5f)
+
 
 ### 9- List the inode numbers of /, /etc, /etc/hosts.
 
@@ -70,3 +76,4 @@ sudo ln -s /etc/passwd /boot/passwdsoftlink
 sudo ln /etc/passwd /boot/passwdhardlink
 No I couldn’t > Different Partitions (Invalid cross-device link)
 
+![lab5 q9-12](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/a243cabf-ca8c-46e2-9a87-ab1b2ca553d8)
