@@ -1,12 +1,12 @@
-### 1- Compress a file by compress, gzip, zip commands and decompress it again. State the
-### differences between compress and gzip commands.
+<br> ### 1- Compress a file by compress, gzip, zip commands and decompress it again. State the
+<br> ### differences between compress and gzip commands.
 
-compress filetest3
-uncompress filetest3
-gzip filetest3
-gunzip filetest3
-zip filetest3.tar  filetest3
-unzip filetest3.tar 
+<br> compress filetest3
+<br> uncompress filetest3
+<br> gzip filetest3
+<br> gunzip filetest3
+<br> zip filetest3.tar  filetest3
+<br> unzip filetest3.tar 
 
 In general Compress will run faster and use less memory, but gzip will generally reach significantly higher levels of compression.
 
