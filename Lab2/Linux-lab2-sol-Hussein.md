@@ -10,8 +10,8 @@ sudo useradd -c "Islam Askar" -md /home/islam islam
 ### • Full name/comment: Bad User
 ### • Password: baduser
 
-sudo useradd -c "Bad User" -md /home/baduser baduser
-sudo passwd baduser
+<br> sudo useradd -c "Bad User" -md /home/baduser baduser
+<br> sudo passwd baduser
 
 ### 3. Create a supplementary (Secondary) group called pgroup with group ID of 30000
 
@@ -31,9 +31,9 @@ sudo passwd islam
 
 ### 7. Modify islam's account so the password expires after 30 days
 
-sudo chage -M 30 islam
-or
-sudo passwd -x 30 islam
+<br> sudo chage -M 30 islam
+<br> or
+<br> sudo passwd -x 30 islam
 
 ### 8. Lock bad user account so he can't log in
 
@@ -50,12 +50,12 @@ sudo groupdel badgroup
 ![lab2 q1-q12](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/22abd11f-3fea-4fd4-a27f-13b82893799e)
 
 ### 13-Create a folder called myteam in your home directory and change its permissions to
-read only for the owner.
+<br> read only for the owner.
 
-mkdir myteam
-ls -ld myteam
-chmod u=r myteam
-ls -ld myteam
+<br> mkdir myteam
+<br> ls -ld myteam
+<br> chmod u=r myteam
+<br> ls -ld myteam
 
 ![lab2 q13-](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/2dea3b23-f51e-4a8c-b12d-a2bf5199da7b)
 
@@ -65,51 +65,50 @@ ls -ld myteam
 su - islam
 
 ### 15-Try to access (by cd command) the folder (myteam)
-cd /home/hussein/myteam
-//  permission denied
+<br> cd /home/hussein/myteam
+<br> //  permission denied
 
 ### 16-Using the command Line
 ### a-Change the permissions of oldpasswd file to give owner read and write
 ### permissions and for group write and execute and execute only for the others
 ### (using chmod in 2 different ways)
 
-su - hussein
-// method1
-chmod u=rw,g=wx,o=x oldpasswd
-// method2
-chmod 631 oldpasswd
+<br> su - hussein
+<br> // method1
+<br> chmod u=rw,g=wx,o=x oldpasswd
+<br> // method2
+<br> chmod 631 oldpasswd
 
 ### b-Change your default permissions to be as above.
 
-// method1
-umask 146
-// method2
-umask -S u=rw,g=wx,o=x 
+<br> // method1
+<br> umask 146
+<br> // method2
+<br> umask -S u=rw,g=wx,o=x 
 
 ### c-What is the maximum permission a file can have, by default when it is just
 ### created? And what is that for directory.
 
-file max default 666
-dir max default 777
+<br> file max default 666
+<br> dir max default 777
 
 ### d- Change your default permissions to be no permission to everyone then create a
 ### directory and a file to verify.
 
-umask 777
-mkdir dirtest1
-touch filetest1
+<br> umask 777
+<br> mkdir dirtest1
+<br> touch filetest1
 
 ### 17-What are the minimum permission needed for:
 ### a- Copy a directory (permission for source directory and permissions for target
 ### parent directory)
 
-if not Empty:
-source_dir:r-x    target_parent_dir:-wx
-If Empty Directory: 
-source_dir:r--    target_parent_dir:-wx
+<br> if not Empty:
+<br> source_dir:r-x    target_parent_dir:-wx
+<br> If Empty Directory: 
+<br> source_dir:r--    target_parent_dir:-wx
 
-### b- Copy a file (permission for source file and and permission for target parent
-directory)
+### b- Copy a file (permission for source file and and permission for target parent directory)
 
 source_dir:--x    target_parent_dir:--wx
 
@@ -131,20 +130,19 @@ r-- permission
 
 ### g- Modify a file conten
 
--w- permission only using echo (write only editors)
-rw- permission to modify with nano, vim (interactive editors)
+<br> -w- permission only using echo (write only editors)
+<br> rw- permission to modify with nano, vim (interactive editors)
 
 ### 18. Create a file with permission 444. Try to edit in it and to remove it? Note what
-Happened.
+<br> Happened.
 
-touch filetest
-chmod 444 filetest
+<br> touch filetest
+<br> chmod 444 filetest
 
-readonly file is unwritable
-readonly file can be deleted
+<br> readonly file is unwritable
+<br> readonly file can be deleted
 
-### 19. What is the difference between the “x” permission for a file and for a
-directory?
+### 19. What is the difference between the “x” permission for a file and for a directory?
 
-For a file : to run the file(execute the codes inside the file)
-for a directory : to enter the directory with cd
+<br> For a file : to run the file(execute the codes inside the file)
+<br> for a directory : to enter the directory with cd
