@@ -19,8 +19,8 @@ cut /etc/passwd -f1,5 -d: | grep '^g' | sort -k 2 -t: -o users-g.list
 ### a-
 sudo find / -name .bash_profile &
 ### b-
-ls -R / > ls-output.list 2> ls-error.list &
-// need sorting.
+<br> ls -R / > ls-output.list 2> ls-error.list &
+<br> // need sorting.
 
 ### 7-Display the number of users who is logged now to the system.
 who | wc -l
@@ -35,11 +35,11 @@ head /etc/passwd | tail -4
 ### a-
 display filename2 only
 ### b-
-rm: missing operand
-Try 'rm --help' for more information.
+<br> rm: missing operand
+<br> Try 'rm --help' for more information.
 ### c-
-displays 1 
-because ls with a file gives only the file path.
+<br> displays 1 
+<br> because ls with a file gives only the file path.
 
 ![lab4 q1-q9](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/550fa0e8-c0f6-4ce7-980b-5b2c5e82ce7a)
 
@@ -57,9 +57,9 @@ bg %5
 jobs
 
 ### 14-Send the sleep command to the foreground and send it again to the background.
-fg %5
-ctrl+z
-bg %5
+<br> fg %5
+<br> ctrl+z
+<br> bg %5
 
 ### 15-Kill the sleep command.
 kill -SIGKILL %5
