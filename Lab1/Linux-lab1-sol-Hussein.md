@@ -11,27 +11,27 @@
 ### c. The output of the command pwd was /home/user. Write the absolute
 ### and relative path for the file mycv
 
-mkdir dir1
-cd ./dir1
-mkdir dir11 dir12
-cd dir11
-touch file1
-cd
-touch mycv
+<br> mkdir dir1
+<br> cd ./dir1
+<br> mkdir dir11 dir12
+<br> cd dir11
+<br> touch file1
+<br> cd
+<br> touch mycv
 
 ### a-
-rmdir ~/dir1/dir11
-//  failed to remove when directory not empty.
-rm -r ~/dir1/dir11
-//  remove directory whatever empty or not.
+<br> rmdir ~/dir1/dir11
+<br> //  failed to remove when directory not empty.
+<br> rm -r ~/dir1/dir11
+<br> //  remove directory whatever empty or not.
 
 ### b-
-rmdir -p dir1/dir12
-//  remove directory and it's ancestors when ancestors empty.(removed dir1 also).
+<br> rmdir -p dir1/dir12
+<br> //  remove directory and it's ancestors when ancestors empty.(removed dir1 also).
 
 ### c-
-absolute path: ~/docs/mycv
-relative path: docs/mycv
+<br> absolute path: ~/docs/mycv
+<br> relative path: docs/mycv
 
 ### 5- Copy the /etc/passwd file to your home directory making its name is mypasswd.
 cp /etc/passwd ~/mypasswd
@@ -40,17 +40,17 @@ cp /etc/passwd ~/mypasswd
 mv ~/mypasswd ~/oldpasswd
 
 ### 7-You are in /usr/bin, list four ways to go to your home directory
-cd
-cd ~
-cd /home/hussein
-cd ../../home/hussen
+<br> cd
+<br> cd ~
+<br> cd /home/hussein
+<br> cd ../../home/hussen
 
 ![lab1 q1-q7](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/5ce50b3c-7d74-4fcb-86ac-a74f85e10c6b)
 
 
 ### 8-List Linux commands in /usr/bin that start with letter w
-cd /usr/bin
-ls w*
+<br> cd /usr/bin
+<br> ls w*
 
 ### 9-Display the first 4 lines of /etc/passwd
 head -4 /etc/passwd
