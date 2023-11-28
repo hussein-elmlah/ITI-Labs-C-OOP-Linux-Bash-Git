@@ -1,5 +1,5 @@
-<br> ### 1- Compress a file by compress, gzip, zip commands and decompress it again. State the
-<br> ### differences between compress and gzip commands.
+### 1- Compress a file by compress, gzip, zip commands and decompress it again. State the
+### differences between compress and gzip commands.
 
 <br> compress filetest3
 <br> uncompress filetest3
