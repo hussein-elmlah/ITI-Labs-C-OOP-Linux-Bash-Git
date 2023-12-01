@@ -1,4 +1,4 @@
 # ITI-Labs-Hussein-Eid
  
 ## Look-into-branches :) 
-## branches-are-differnt-courses-labs ;)
+## Branches-are-differnt-courses-labs ;)
