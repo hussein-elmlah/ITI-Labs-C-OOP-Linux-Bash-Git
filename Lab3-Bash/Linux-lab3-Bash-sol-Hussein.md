@@ -16,6 +16,7 @@ case <br> $var in
 <br> [0-9] ) echo "integer" ;;
 <br> *) echo "nothing"
 <br> esac
+![shell-lab3 q1](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/e4c1ec14-4030-4e19-a97d-a6894e866070)
 
 ### 2. Enhanced the previous script, by checking the type of string entered by a user:
 ### a. Upper Cases.
@@ -35,6 +36,7 @@ case <br> $var in
 <br> +([a-zA-Z0-9]) ) echo "mix" ;;
 <br> *) echo "nothing"
 <br> esac
+![shell-lab3 q2](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/56904628-80bf-402d-a56f-ee6bf6085f21)
 
 ### 3. Write a script called mychmod using for utility to give execute permission to all files and
 ### directories in your home directory.
@@ -51,6 +53,7 @@ case <br> $var in
 <br> else
 <br> echo "no directory entered"
 <br> fi
+![shell-lab3 q3](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/25572492-e8cc-4034-82ad-cfa3a18fa538)
 
 ### 4. Write a script called mybackup using for utility to create a backup of only files in your home directory.
 
@@ -84,6 +87,7 @@ case <br> $var in
 <br> else
   <br> echo "Backup failed. Please check for errors."
 <br> fi
+![shell-lab3 q4](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/c23d02bf-ae41-4046-977c-33e1b8610112)
 
 ### 5. Write a script called mymail using for utility to send a mail to all users in the system.
 ### Note: write the mail body in a file called mtemplate.
@@ -94,6 +98,7 @@ case <br> $var in
 <br> do mail -s "greeting" $var <$temp_file
 <br> done
 <br> echo "mails sent"
+![shell-lab3 q5](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/658bd354-a756-4394-82c2-659d1e2ccc35)
 
 ### 6. Write a script called chkmail to check for new mails every 10 seconds. Note: mails are saved in /var/mail/username.
 
@@ -115,6 +120,7 @@ case <br> $var in
   <br> last_check_time=$(date +%s)
   <br> sleep 10
 <br> done
+![shell-lab3 q6](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/da10879e-aafe-4dc9-8980-e02afaffd089)
 
 ### Bonus:
 ### Open a talk session to a certain user when she/he logs into the system.
@@ -141,6 +147,7 @@ case <br> $var in
 ### done
 
 it will print 1 .
+![shell-lab3 q7](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/b3c24c29-18c0-42a1-b54b-ace6fa37b363)
 
 ### 8. Create the following menu:
 ### a. Press 1 to ls
@@ -176,6 +183,7 @@ it will print 1 .
  <br> echo "make a choice : "
  <br> get_choice
  <br> done
+![shell-lab3 q8](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/6d7b5538-2d1e-4c76-bcb7-17167d21b2e7)
 
 ### 9. Write a script called myarr that ask a user how many elements he wants to enter in an
 ### array, fill the array and then print it.
@@ -200,6 +208,7 @@ it will print 1 .
   <br> echo "$element"
 <br> done
 <br> fi
+![shell-lab3 q9](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/41d37944-dd96-40b6-805a-a8a123ccfa25)
 
 ### 10.Write a script called myavg that calculate average of all numbers entered by a user.
 ### Note: use arrays
@@ -225,6 +234,7 @@ it will print 1 .
 <br> avg=$(echo "scale=2; $sum / $num_elements" | bc)
 <br> echo "array average = $avg"
 <br> fi
+![shell-lab3 q10](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/73cfa733-e0e0-4fc9-b4d9-799530f564a0)
 
 ### 11.Write a function called mysq that calculate square if its argument.
 
@@ -244,5 +254,6 @@ it will print 1 .
 <br> else
   <br> echo "Invalid input. Please enter a valid number."
 <br> fi
+![shell-lab3 q11](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/56fb07b7-be30-487b-bba3-1229b10ed920)
 
 
