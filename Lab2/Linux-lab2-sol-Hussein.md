@@ -19,12 +19,12 @@
 
 
 ### 4- Tell me how to remove them locally and remotely.
-# Delete branches locally
-git branch -d dev
-git branch -d test
-# Delete branches remotely
-git push origin --delete dev
-git push origin --delete test
+<br> # Delete branches locally
+<br> git branch -d dev
+<br> git branch -d test
+<br> # Delete branches remotely
+<br> git push origin --delete dev
+<br> git push origin --delete test
 
 ### 5- Create an annotated tag with tagname (v1.7).
 git tag -a v1.7 -m "Version 1.7"
@@ -38,7 +38,7 @@ git tag
 ![version-control lab2-q5-7](https://github.com/hussein-elmlah/ITI-Labs-Hussein-Eid/assets/147069168/4a71c933-205e-472d-bd49-76f31ad5279e)
 
 ### 8- Tell me how to delete tag locally and remotely.
-# Delete local tag
-git tag -d v1.7
-# Delete remote tag
-git push origin --delete v1.7
+<br> # Delete local tag
+<br> git tag -d v1.7
+<br> # Delete remote tag
+<br> git push origin --delete v1.7
